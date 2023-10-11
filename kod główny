@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Znajdz siebie</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text css" href="style.css">
 </head>
 <body>
     <h1>Stacja:</h1>
@@ -12,7 +12,6 @@
         <option value="D2">D2</option>
         <option value="D3">D3</option>
         <option value="D4">D4</option>
-        <option value="D5">D5</option>
     </select>
 
     <h1>Znajdz siebie:</h1>
@@ -45,8 +44,7 @@
                 "D1": baseRedirectURL + "&prefill_Station=D1",
                 "D2": baseRedirectURL + "&prefill_Station=D2",
                 "D3": baseRedirectURL + "&prefill_Station=D3",
-                "D4": baseRedirectURL + "&prefill_Station=D4",
-                "D5": baseRedirectURL + "&prefill_Station=D5"
+                "D4": baseRedirectURL + "&prefill_Station=D4"
             };
 
             // Check if the selected station exists in the redirection URLs
