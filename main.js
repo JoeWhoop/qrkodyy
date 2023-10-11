@@ -3,10 +3,10 @@ document.getElementById("goButton").addEventListener("click", function () {
     var selectedMechanic = document.getElementById("mechanicDropdown").value;
     var selectedStation = document.getElementById("stationDropdown").value;
 
-    // Define the base URL for Lukasz Chojecki
-    var baseRedirectURL = "https://web.miniextensions.com/Bwk6PtCv1a4zbRONadUU?prefill_Mechanic=LUKASZ_CHOJECKI";
+    // Define the base URL for the selected mechanic
+    var baseRedirectURL = "https://web.miniextensions.com/Bwk6PtCv1a4zbRONadUU?prefill_Mechanic=" + selectedMechanic;
 
-    // Define redirection URLs for different stations for Lukasz Chojecki
+    // Define redirection URLs for different stations
     var redirectionURLs = {
         "D0": baseRedirectURL + "&prefill_Station=D0",
         "D1": baseRedirectURL + "&prefill_Station=D1",
