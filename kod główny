@@ -36,7 +36,10 @@
             <option value="SZYMON_KULKA">SZYMON KULKA</option>
             <option value="SZYMON_NIEZGODA">SZYMON NIEZGODA</option>
             <option value="VADYM_SLABETSKYI">VADYM SLABETSKYI</option>
+            <option value="ANDRZEJ_PRASEK">ANDRZEJ PRASEK</option>
             <option value="WIKTOR_WITEK">WIKTOR WITEK</option>
+            <option value="DOMINIK_ADAMCZYK">DOMINIK_ADAMCZYK</option>
+            <option value="STANISLAV_TYMCHENKO">STANISLAV TYMCHENKO</option>
         </select>
 
         <button id="goButton">Go</button>
